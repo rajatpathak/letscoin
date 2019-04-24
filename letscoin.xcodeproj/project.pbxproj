@@ -7,21 +7,103 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9C23479B20AC087900D3B411 /* lastTransactions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C23479A20AC087900D3B411 /* lastTransactions.swift */; };
+		9C23479D20AC1F7F00D3B411 /* Community.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C23479C20AC1F7F00D3B411 /* Community.swift */; };
+		9C23479F20AC207D00D3B411 /* CategoryOne.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C23479E20AC207D00D3B411 /* CategoryOne.swift */; };
+		9C2347A120AC209100D3B411 /* CategoryTwo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C2347A020AC209100D3B411 /* CategoryTwo.swift */; };
+		9C2DC61920AAC2F800079032 /* notificationCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C2DC61820AAC2F800079032 /* notificationCell.swift */; };
+		9C2DC61B20AAC50500079032 /* UPCarouselFlowLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C2DC61A20AAC50400079032 /* UPCarouselFlowLayout.swift */; };
+		9C2DC61D20AAC78E00079032 /* extention.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C2DC61C20AAC78E00079032 /* extention.swift */; };
+		9C6C87AD20ABEE3D002480F0 /* transaction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C6C87AC20ABEE3D002480F0 /* transaction.swift */; };
+		9C79166820B2DA6F00215012 /* searchCommunityCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C79166720B2DA6F00215012 /* searchCommunityCell.swift */; };
+		9C79166A20B2E3E800215012 /* communityListVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C79166920B2E3E800215012 /* communityListVC.swift */; };
+		9C79166C20B2FEE700215012 /* communityAdminCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C79166B20B2FEE700215012 /* communityAdminCollectionViewCell.swift */; };
+		9C79166E20B2FF3000215012 /* CommunityAdmin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C79166D20B2FF3000215012 /* CommunityAdmin.swift */; };
+		9C79167620B30CB700215012 /* adminCellTwo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C79167520B30CB700215012 /* adminCellTwo.swift */; };
+		9C99F66820AC43910028AD76 /* communityListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C99F66720AC43910028AD76 /* communityListCell.swift */; };
+		9C99F66A20AC4ED20028AD76 /* CommunityDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C99F66920AC4ED20028AD76 /* CommunityDetails.swift */; };
+		9C99F66C20AC530D0028AD76 /* Request.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C99F66B20AC530D0028AD76 /* Request.swift */; };
+		9C99F66E20AC67300028AD76 /* foreignExchange.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C99F66D20AC67300028AD76 /* foreignExchange.swift */; };
+		9C99F67020AC683A0028AD76 /* foreignExchCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C99F66F20AC683A0028AD76 /* foreignExchCell.swift */; };
 		9CBC151020A96D69001F5C6D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CBC150F20A96D69001F5C6D /* AppDelegate.swift */; };
-		9CBC151220A96D69001F5C6D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CBC151120A96D69001F5C6D /* ViewController.swift */; };
 		9CBC151520A96D69001F5C6D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9CBC151320A96D69001F5C6D /* Main.storyboard */; };
 		9CBC151720A96D6C001F5C6D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9CBC151620A96D6C001F5C6D /* Assets.xcassets */; };
 		9CBC151A20A96D6C001F5C6D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9CBC151820A96D6C001F5C6D /* LaunchScreen.storyboard */; };
+		9CBC152320A96E87001F5C6D /* Splash.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CBC152220A96E87001F5C6D /* Splash.swift */; };
+		9CBC152520A9702A001F5C6D /* login.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CBC152420A9702A001F5C6D /* login.swift */; };
+		9CBC152820A970C0001F5C6D /* CircularTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CBC152620A970C0001F5C6D /* CircularTransition.swift */; };
+		9CBC152920A970C0001F5C6D /* AnimationPresent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CBC152720A970C0001F5C6D /* AnimationPresent.swift */; };
+		9CBC152C20A994DB001F5C6D /* signUp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CBC152B20A994DB001F5C6D /* signUp.swift */; };
+		9CBC153A20A9AB9B001F5C6D /* mainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CBC153920A9AB9B001F5C6D /* mainView.swift */; };
+		9CBC153C20A9ABAC001F5C6D /* leftView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CBC153B20A9ABAC001F5C6D /* leftView.swift */; };
+		9CBC154620A9AD64001F5C6D /* MMDrawerBarButtonItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CBC153E20A9AD63001F5C6D /* MMDrawerBarButtonItem.m */; };
+		9CBC154720A9AD64001F5C6D /* MMDrawerVisualState.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CBC154320A9AD64001F5C6D /* MMDrawerVisualState.m */; };
+		9CBC154820A9AD64001F5C6D /* UIViewController+MMDrawerController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CBC154420A9AD64001F5C6D /* UIViewController+MMDrawerController.m */; };
+		9CBC154920A9AD64001F5C6D /* MMDrawerController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CBC154520A9AD64001F5C6D /* MMDrawerController.m */; };
+		9CCE00B220B01C73008AD755 /* PayNow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CCE00B120B01C73008AD755 /* PayNow.swift */; };
+		9CCE00B420B03D09008AD755 /* communieT.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CCE00B320B03D09008AD755 /* communieT.swift */; };
+		9CCE00B620B04712008AD755 /* world-cities.txt in Resources */ = {isa = PBXBuildFile; fileRef = 9CCE00B520B04711008AD755 /* world-cities.txt */; };
+		9CCE00B820B0506F008AD755 /* myCommunityCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CCE00B720B0506F008AD755 /* myCommunityCell.swift */; };
+		9CCE00BA20B074B6008AD755 /* welcomeCommunity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CCE00B920B074B6008AD755 /* welcomeCommunity.swift */; };
+		9CF8267420AAD5A2005513FE /* HomelocalLcCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CF8267320AAD5A2005513FE /* HomelocalLcCell.swift */; };
+		9CF8267620AAEA7A005513FE /* transfer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CF8267520AAEA7A005513FE /* transfer.swift */; };
+		9CF8267E20AB0DB3005513FE /* Profile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CF8267D20AB0DB3005513FE /* Profile.swift */; };
+		CA5E9EC5FD1F41AFCAF803D1 /* Pods_letscoin.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 28C774912B8FD86B0669574C /* Pods_letscoin.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		28C774912B8FD86B0669574C /* Pods_letscoin.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_letscoin.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4C71800616EBC1FC41F67012 /* Pods-letscoin.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-letscoin.debug.xcconfig"; path = "Pods/Target Support Files/Pods-letscoin/Pods-letscoin.debug.xcconfig"; sourceTree = "<group>"; };
+		9C23479A20AC087900D3B411 /* lastTransactions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = lastTransactions.swift; sourceTree = "<group>"; };
+		9C23479C20AC1F7F00D3B411 /* Community.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Community.swift; sourceTree = "<group>"; };
+		9C23479E20AC207D00D3B411 /* CategoryOne.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryOne.swift; sourceTree = "<group>"; };
+		9C2347A020AC209100D3B411 /* CategoryTwo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryTwo.swift; sourceTree = "<group>"; };
+		9C2DC61820AAC2F800079032 /* notificationCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = notificationCell.swift; sourceTree = "<group>"; };
+		9C2DC61A20AAC50400079032 /* UPCarouselFlowLayout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UPCarouselFlowLayout.swift; sourceTree = "<group>"; };
+		9C2DC61C20AAC78E00079032 /* extention.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = extention.swift; sourceTree = "<group>"; };
+		9C6C87AC20ABEE3D002480F0 /* transaction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = transaction.swift; sourceTree = "<group>"; };
+		9C79166720B2DA6F00215012 /* searchCommunityCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = searchCommunityCell.swift; sourceTree = "<group>"; };
+		9C79166920B2E3E800215012 /* communityListVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = communityListVC.swift; sourceTree = "<group>"; };
+		9C79166B20B2FEE700215012 /* communityAdminCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = communityAdminCollectionViewCell.swift; sourceTree = "<group>"; };
+		9C79166D20B2FF3000215012 /* CommunityAdmin.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommunityAdmin.swift; sourceTree = "<group>"; };
+		9C79167520B30CB700215012 /* adminCellTwo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = adminCellTwo.swift; sourceTree = "<group>"; };
+		9C99F66720AC43910028AD76 /* communityListCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = communityListCell.swift; sourceTree = "<group>"; };
+		9C99F66920AC4ED20028AD76 /* CommunityDetails.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommunityDetails.swift; sourceTree = "<group>"; };
+		9C99F66B20AC530D0028AD76 /* Request.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Request.swift; sourceTree = "<group>"; };
+		9C99F66D20AC67300028AD76 /* foreignExchange.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = foreignExchange.swift; sourceTree = "<group>"; };
+		9C99F66F20AC683A0028AD76 /* foreignExchCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = foreignExchCell.swift; sourceTree = "<group>"; };
 		9CBC150C20A96D69001F5C6D /* letscoin.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = letscoin.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9CBC150F20A96D69001F5C6D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		9CBC151120A96D69001F5C6D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		9CBC151420A96D69001F5C6D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		9CBC151620A96D6C001F5C6D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9CBC151920A96D6C001F5C6D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9CBC151B20A96D6C001F5C6D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9CBC152220A96E87001F5C6D /* Splash.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Splash.swift; sourceTree = "<group>"; };
+		9CBC152420A9702A001F5C6D /* login.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = login.swift; sourceTree = "<group>"; };
+		9CBC152620A970C0001F5C6D /* CircularTransition.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CircularTransition.swift; sourceTree = "<group>"; };
+		9CBC152720A970C0001F5C6D /* AnimationPresent.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnimationPresent.swift; sourceTree = "<group>"; };
+		9CBC152B20A994DB001F5C6D /* signUp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = signUp.swift; sourceTree = "<group>"; };
+		9CBC152E20A9AAF2001F5C6D /* letscoin-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "letscoin-Bridging-Header.h"; sourceTree = "<group>"; };
+		9CBC153920A9AB9B001F5C6D /* mainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mainView.swift; sourceTree = "<group>"; };
+		9CBC153B20A9ABAC001F5C6D /* leftView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = leftView.swift; sourceTree = "<group>"; };
+		9CBC153D20A9AD63001F5C6D /* MMDrawerController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MMDrawerController.h; sourceTree = "<group>"; };
+		9CBC153E20A9AD63001F5C6D /* MMDrawerBarButtonItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MMDrawerBarButtonItem.m; sourceTree = "<group>"; };
+		9CBC153F20A9AD63001F5C6D /* MMDrawerBarButtonItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MMDrawerBarButtonItem.h; sourceTree = "<group>"; };
+		9CBC154020A9AD63001F5C6D /* MMDrawerController+Subclass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MMDrawerController+Subclass.h"; sourceTree = "<group>"; };
+		9CBC154120A9AD63001F5C6D /* MMDrawerVisualState.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MMDrawerVisualState.h; sourceTree = "<group>"; };
+		9CBC154220A9AD64001F5C6D /* UIViewController+MMDrawerController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+MMDrawerController.h"; sourceTree = "<group>"; };
+		9CBC154320A9AD64001F5C6D /* MMDrawerVisualState.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MMDrawerVisualState.m; sourceTree = "<group>"; };
+		9CBC154420A9AD64001F5C6D /* UIViewController+MMDrawerController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+MMDrawerController.m"; sourceTree = "<group>"; };
+		9CBC154520A9AD64001F5C6D /* MMDrawerController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MMDrawerController.m; sourceTree = "<group>"; };
+		9CCE00B120B01C73008AD755 /* PayNow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PayNow.swift; sourceTree = "<group>"; };
+		9CCE00B320B03D09008AD755 /* communieT.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = communieT.swift; sourceTree = "<group>"; };
+		9CCE00B520B04711008AD755 /* world-cities.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "world-cities.txt"; sourceTree = "<group>"; };
+		9CCE00B720B0506F008AD755 /* myCommunityCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = myCommunityCell.swift; sourceTree = "<group>"; };
+		9CCE00B920B074B6008AD755 /* welcomeCommunity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = welcomeCommunity.swift; sourceTree = "<group>"; };
+		9CF8267320AAD5A2005513FE /* HomelocalLcCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomelocalLcCell.swift; sourceTree = "<group>"; };
+		9CF8267520AAEA7A005513FE /* transfer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = transfer.swift; sourceTree = "<group>"; };
+		9CF8267D20AB0DB3005513FE /* Profile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Profile.swift; sourceTree = "<group>"; };
+		B4BA758F9914DE9FDBB0518E /* Pods-letscoin.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-letscoin.release.xcconfig"; path = "Pods/Target Support Files/Pods-letscoin/Pods-letscoin.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +111,28 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CA5E9EC5FD1F41AFCAF803D1 /* Pods_letscoin.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0D55AE8400A1860D03CFD2E6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				28C774912B8FD86B0669574C /* Pods_letscoin.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		9CBC150320A96D69001F5C6D = {
 			isa = PBXGroup;
 			children = (
 				9CBC150E20A96D69001F5C6D /* letscoin */,
 				9CBC150D20A96D69001F5C6D /* Products */,
+				EC899C64B60C09C37E0E30E9 /* Pods */,
+				0D55AE8400A1860D03CFD2E6 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,14 +147,89 @@
 		9CBC150E20A96D69001F5C6D /* letscoin */ = {
 			isa = PBXGroup;
 			children = (
+				9CCE00B520B04711008AD755 /* world-cities.txt */,
+				9CBC152120A96E75001F5C6D /* controllers */,
 				9CBC150F20A96D69001F5C6D /* AppDelegate.swift */,
-				9CBC151120A96D69001F5C6D /* ViewController.swift */,
 				9CBC151320A96D69001F5C6D /* Main.storyboard */,
 				9CBC151620A96D6C001F5C6D /* Assets.xcassets */,
 				9CBC151820A96D6C001F5C6D /* LaunchScreen.storyboard */,
 				9CBC151B20A96D6C001F5C6D /* Info.plist */,
 			);
 			path = letscoin;
+			sourceTree = "<group>";
+		};
+		9CBC152120A96E75001F5C6D /* controllers */ = {
+			isa = PBXGroup;
+			children = (
+				9CBC152D20A9AADD001F5C6D /* SideMenu */,
+				9CBC152A20A970C4001F5C6D /* animation */,
+				9CBC152220A96E87001F5C6D /* Splash.swift */,
+				9CBC152420A9702A001F5C6D /* login.swift */,
+				9CBC152B20A994DB001F5C6D /* signUp.swift */,
+				9CBC153920A9AB9B001F5C6D /* mainView.swift */,
+				9CBC153B20A9ABAC001F5C6D /* leftView.swift */,
+				9C2DC61820AAC2F800079032 /* notificationCell.swift */,
+				9C2DC61A20AAC50400079032 /* UPCarouselFlowLayout.swift */,
+				9C2DC61C20AAC78E00079032 /* extention.swift */,
+				9CF8267320AAD5A2005513FE /* HomelocalLcCell.swift */,
+				9CF8267520AAEA7A005513FE /* transfer.swift */,
+				9CF8267D20AB0DB3005513FE /* Profile.swift */,
+				9C6C87AC20ABEE3D002480F0 /* transaction.swift */,
+				9C23479A20AC087900D3B411 /* lastTransactions.swift */,
+				9C23479C20AC1F7F00D3B411 /* Community.swift */,
+				9C23479E20AC207D00D3B411 /* CategoryOne.swift */,
+				9C2347A020AC209100D3B411 /* CategoryTwo.swift */,
+				9C99F66720AC43910028AD76 /* communityListCell.swift */,
+				9C99F66920AC4ED20028AD76 /* CommunityDetails.swift */,
+				9C99F66B20AC530D0028AD76 /* Request.swift */,
+				9C99F66D20AC67300028AD76 /* foreignExchange.swift */,
+				9C99F66F20AC683A0028AD76 /* foreignExchCell.swift */,
+				9CCE00B120B01C73008AD755 /* PayNow.swift */,
+				9CCE00B320B03D09008AD755 /* communieT.swift */,
+				9CCE00B720B0506F008AD755 /* myCommunityCell.swift */,
+				9CCE00B920B074B6008AD755 /* welcomeCommunity.swift */,
+				9C79166720B2DA6F00215012 /* searchCommunityCell.swift */,
+				9C79166920B2E3E800215012 /* communityListVC.swift */,
+				9C79166B20B2FEE700215012 /* communityAdminCollectionViewCell.swift */,
+				9C79166D20B2FF3000215012 /* CommunityAdmin.swift */,
+				9C79167520B30CB700215012 /* adminCellTwo.swift */,
+			);
+			path = controllers;
+			sourceTree = "<group>";
+		};
+		9CBC152A20A970C4001F5C6D /* animation */ = {
+			isa = PBXGroup;
+			children = (
+				9CBC152720A970C0001F5C6D /* AnimationPresent.swift */,
+				9CBC152620A970C0001F5C6D /* CircularTransition.swift */,
+			);
+			path = animation;
+			sourceTree = "<group>";
+		};
+		9CBC152D20A9AADD001F5C6D /* SideMenu */ = {
+			isa = PBXGroup;
+			children = (
+				9CBC153F20A9AD63001F5C6D /* MMDrawerBarButtonItem.h */,
+				9CBC153E20A9AD63001F5C6D /* MMDrawerBarButtonItem.m */,
+				9CBC153D20A9AD63001F5C6D /* MMDrawerController.h */,
+				9CBC154520A9AD64001F5C6D /* MMDrawerController.m */,
+				9CBC154020A9AD63001F5C6D /* MMDrawerController+Subclass.h */,
+				9CBC154120A9AD63001F5C6D /* MMDrawerVisualState.h */,
+				9CBC154320A9AD64001F5C6D /* MMDrawerVisualState.m */,
+				9CBC154220A9AD64001F5C6D /* UIViewController+MMDrawerController.h */,
+				9CBC154420A9AD64001F5C6D /* UIViewController+MMDrawerController.m */,
+				9CBC152E20A9AAF2001F5C6D /* letscoin-Bridging-Header.h */,
+			);
+			path = SideMenu;
+			sourceTree = "<group>";
+		};
+		EC899C64B60C09C37E0E30E9 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4C71800616EBC1FC41F67012 /* Pods-letscoin.debug.xcconfig */,
+				B4BA758F9914DE9FDBB0518E /* Pods-letscoin.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +239,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 9CBC151E20A96D6C001F5C6D /* Build configuration list for PBXNativeTarget "letscoin" */;
 			buildPhases = (
+				AC9082A4608B50B6E4B70371 /* [CP] Check Pods Manifest.lock */,
 				9CBC150820A96D69001F5C6D /* Sources */,
 				9CBC150920A96D69001F5C6D /* Frameworks */,
 				9CBC150A20A96D69001F5C6D /* Resources */,
+				528EBDC02650E035F27B633E /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -96,6 +266,7 @@
 				TargetAttributes = {
 					9CBC150B20A96D69001F5C6D = {
 						CreatedOnToolsVersion = 9.3;
+						LastSwiftMigration = 0930;
 					};
 				};
 			};
@@ -122,6 +293,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9CCE00B620B04712008AD755 /* world-cities.txt in Resources */,
 				9CBC151A20A96D6C001F5C6D /* LaunchScreen.storyboard in Resources */,
 				9CBC151720A96D6C001F5C6D /* Assets.xcassets in Resources */,
 				9CBC151520A96D69001F5C6D /* Main.storyboard in Resources */,
@@ -130,13 +302,97 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		528EBDC02650E035F27B633E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-letscoin/Pods-letscoin-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/CountryPickerSwift/CountryPicker.framework",
+				"${BUILT_PRODUCTS_DIR}/DTTextField/DTTextField.framework",
+				"${BUILT_PRODUCTS_DIR}/IQKeyboardManagerSwift/IQKeyboardManagerSwift.framework",
+				"${BUILT_PRODUCTS_DIR}/MarqueeLabel/MarqueeLabel.framework",
+				"${BUILT_PRODUCTS_DIR}/SkyFloatingLabelTextField/SkyFloatingLabelTextField.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/CountryPicker.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/DTTextField.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/IQKeyboardManagerSwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MarqueeLabel.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SkyFloatingLabelTextField.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-letscoin/Pods-letscoin-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AC9082A4608B50B6E4B70371 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-letscoin-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		9CBC150820A96D69001F5C6D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9CBC151220A96D69001F5C6D /* ViewController.swift in Sources */,
+				9C99F67020AC683A0028AD76 /* foreignExchCell.swift in Sources */,
+				9CBC154820A9AD64001F5C6D /* UIViewController+MMDrawerController.m in Sources */,
+				9C99F66A20AC4ED20028AD76 /* CommunityDetails.swift in Sources */,
+				9C23479F20AC207D00D3B411 /* CategoryOne.swift in Sources */,
+				9C99F66E20AC67300028AD76 /* foreignExchange.swift in Sources */,
+				9C79166E20B2FF3000215012 /* CommunityAdmin.swift in Sources */,
+				9CBC154720A9AD64001F5C6D /* MMDrawerVisualState.m in Sources */,
+				9CBC152320A96E87001F5C6D /* Splash.swift in Sources */,
+				9CF8267420AAD5A2005513FE /* HomelocalLcCell.swift in Sources */,
+				9CBC152520A9702A001F5C6D /* login.swift in Sources */,
+				9CF8267620AAEA7A005513FE /* transfer.swift in Sources */,
 				9CBC151020A96D69001F5C6D /* AppDelegate.swift in Sources */,
+				9CCE00B220B01C73008AD755 /* PayNow.swift in Sources */,
+				9CF8267E20AB0DB3005513FE /* Profile.swift in Sources */,
+				9C23479B20AC087900D3B411 /* lastTransactions.swift in Sources */,
+				9C23479D20AC1F7F00D3B411 /* Community.swift in Sources */,
+				9C79166A20B2E3E800215012 /* communityListVC.swift in Sources */,
+				9C99F66820AC43910028AD76 /* communityListCell.swift in Sources */,
+				9CBC153A20A9AB9B001F5C6D /* mainView.swift in Sources */,
+				9C79166C20B2FEE700215012 /* communityAdminCollectionViewCell.swift in Sources */,
+				9C2DC61B20AAC50500079032 /* UPCarouselFlowLayout.swift in Sources */,
+				9C2DC61D20AAC78E00079032 /* extention.swift in Sources */,
+				9C2DC61920AAC2F800079032 /* notificationCell.swift in Sources */,
+				9C79166820B2DA6F00215012 /* searchCommunityCell.swift in Sources */,
+				9CBC154620A9AD64001F5C6D /* MMDrawerBarButtonItem.m in Sources */,
+				9CBC152920A970C0001F5C6D /* AnimationPresent.swift in Sources */,
+				9CBC153C20A9ABAC001F5C6D /* leftView.swift in Sources */,
+				9CBC152820A970C0001F5C6D /* CircularTransition.swift in Sources */,
+				9C2347A120AC209100D3B411 /* CategoryTwo.swift in Sources */,
+				9CCE00B420B03D09008AD755 /* communieT.swift in Sources */,
+				9C6C87AD20ABEE3D002480F0 /* transaction.swift in Sources */,
+				9C99F66C20AC530D0028AD76 /* Request.swift in Sources */,
+				9CCE00BA20B074B6008AD755 /* welcomeCommunity.swift in Sources */,
+				9CCE00B820B0506F008AD755 /* myCommunityCell.swift in Sources */,
+				9CBC154920A9AD64001F5C6D /* MMDrawerController.m in Sources */,
+				9C79167620B30CB700215012 /* adminCellTwo.swift in Sources */,
+				9CBC152C20A994DB001F5C6D /* signUp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -278,17 +534,18 @@
 		};
 		9CBC151F20A96D6C001F5C6D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4C71800616EBC1FC41F67012 /* Pods-letscoin.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 5B846Z25U6;
 				INFOPLIST_FILE = letscoin/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.appentus.letscoin;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "letscoin/controllers/SideMenu/letscoin-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -296,17 +553,17 @@
 		};
 		9CBC152020A96D6C001F5C6D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B4BA758F9914DE9FDBB0518E /* Pods-letscoin.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 5B846Z25U6;
 				INFOPLIST_FILE = letscoin/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.appentus.letscoin;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "letscoin/controllers/SideMenu/letscoin-Bridging-Header.h";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};

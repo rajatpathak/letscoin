@@ -1,0 +1,36 @@
+PODS:
+  - Alamofire (4.7.2)
+  - CountryPickerSwift (1.7.1)
+  - DTTextField (0.3.0)
+  - IQKeyboardManagerSwift (6.0.3)
+  - MarqueeLabel/Swift (3.1.4)
+  - SkyFloatingLabelTextField (3.4.1)
+
+DEPENDENCIES:
+  - Alamofire (~> 4.7)
+  - CountryPickerSwift
+  - DTTextField
+  - IQKeyboardManagerSwift
+  - MarqueeLabel/Swift
+  - SkyFloatingLabelTextField (~> 3.0)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - Alamofire
+    - CountryPickerSwift
+    - DTTextField
+    - IQKeyboardManagerSwift
+    - MarqueeLabel
+    - SkyFloatingLabelTextField
+
+SPEC CHECKSUMS:
+  Alamofire: e4fa87002c137ba2d8d634d2c51fabcda0d5c223
+  CountryPickerSwift: d46dcaadc64fd6e0f00c98dd23a432de858a5193
+  DTTextField: c26deead1a51c92156e2a638ac7d2c702c2f345e
+  IQKeyboardManagerSwift: 04e8679f85e496bb2c474eeb9284052f1b3c391c
+  MarqueeLabel: bf768455fe88d427f71476ebb23f9092b660f40b
+  SkyFloatingLabelTextField: 8085f20f57f74a00cfcae58099299faa1a971035
+
+PODFILE CHECKSUM: 761223163fb8f0a675762b26a52a2a3493fb6674
+
+COCOAPODS: 1.5.2
